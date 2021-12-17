@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <embed src="文件/background music.mp3" hidden="true" autostart="true">
+  <!-- 背景音乐（不能控制） -->
+  <!-- <embed src="文件/background music.mp3" hidden="true" autostart="true"> -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -69,7 +70,6 @@
                 height: 62px;
                 margin-top: -5px;
                 margin-left: 3px;
-
               "
             />
           </div>
@@ -77,7 +77,8 @@
             href="index.html"
             class="navbar-brand"
             style="font-family:KaiTi; font-weight: 700; color: black; font-size: 27px;"
-            >&nbsp;陈志轩的主页</a>
+            >&nbsp;陈志轩的主页
+          </a>
         </div>
         <div
           class="collapse navbar-collapse "
@@ -88,12 +89,17 @@
             </li>
             <li><a href="jieshao.html"><strong>简介</strong></a></li>
             <li><a href="photo.html"><strong>日常生活</strong></a></li>
-            <li><a href="https://nc.gcu.edu.cn/"><strong>网络与信息中心</strong></a></li>
+            <li><a href="https://jwxt.gcu.edu.cn/"><strong>教务系统</strong></a></li>
             <li><a href="https://www.gcu.edu.cn/"><strong>学校主页</strong></a></li>
           </ul>
        </div>
       </div>
     </nav>
+    <!-- 播放器 -->
+    <audio src="文件/background music.mp3" 
+      controls="controls" autoplay="autoplay" 
+      style="margin-top: 70px;">
+    </audio>
     <!-- 中间部分 -->
     <div class="body" id="Background">
       <div >
@@ -132,7 +138,7 @@
       style="
         background: #f8f8f8;
         position: absolute;
-        bottom: -100px;
+        bottom: -120px;
         left: 0;
         right: 0;
         text-align: center;  "
