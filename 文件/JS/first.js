@@ -21,3 +21,12 @@ document.addEventListener('touchstart', function () {
   }
   audioAutoPlay();
 });
+
+// 文字闪烁  <div id="blink">文字闪烁</div?
+function changeColor() {
+  let color = '#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray';
+  color = color.split('|');
+  document.getElementById('blink').style.color =
+    color[parseInt(Math.random() * color.length)];
+}
+setInterval('changeColor()', 1000);
