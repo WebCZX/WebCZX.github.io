@@ -25,5 +25,45 @@ body {
   height: 50px;
   position: absolute;
   background-color: #fff;
-  
+  border-radius: 50%;
+  top: -25px;
+  z-index: 1000;
+  transform: translateX(-50%);
+  animation: starLight 1.5s ease infinite alternate;
+}
+
+.start-in {
+  position: absolute;
+  left: 50%;
+  top: auto;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid gold;
+  border-left: 100px solid transparent;
+  transform: translateX(-50%) translateY(-50%) rotate(35deg) scale(0.14s);
+}
+
+@keyframes starLight {
+  0% {
+    background: radial-gradient(
+        ellipse at center,
+        gold 0%,
+        rgba(255, 240, 158, 0.5) 42%
+      ),
+      rgba(255, 255, 255, 0.1) 58%, rgba(255, 255, 255, 0.1) 100%;
+  }
+  25% {
+    background: radial-gradient(ellipse at center, gold 0%)
+        rgba(255, 240, 158, 0.5) 40%,
+      rgba(255, 242, 173, 0.2) 60%, rgba(255, 255, 255, 0.1) 100%;
+  }
+  50% {
+    background: radial-gradient(ellipse at center, gold 0%)
+        rgba(255, 240, 158, 0.5) 38%,
+      rgba(255, 242, 173, 0.2) 62%, rgba(255, 255, 255, 0.1) 100%;
+  }
+  75% {
+    background: radial-gradient(ellipse at center, gold 0%)
+        rgba(255, 240, 158, 0.5) 34%,
+      rgba(255, 242, 173, 0.2) 66%, rgba(255, 255, 255, 0.1) 100%;
+  }
 }
