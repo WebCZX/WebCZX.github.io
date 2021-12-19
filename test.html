@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- <embed src="文件/圣诞结.mp3" hidden="true" autostart="true"> -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,6 +11,7 @@
     /> -->
     <!-- <link rel="stylesheet" type="text/css" href="文件/CSS/nav_style.css" /> -->
     <link rel="stylesheet" type="text/css" href="圣诞树.css" />
+
     <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -27,7 +29,32 @@
       crossorigin="anonymous"
     ></script> -->
     <title>相关文件测试页面</title>
-    <!-- <style></style> -->
+    <style>
+      .btn {
+        border: 1px solid;
+        border-radius: 15px;
+        background-color: transparent;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 10px 20px;
+        font-weight: 300;
+      }
+
+      .btn:hover {
+        color: white;
+        border: 0;
+      }
+
+      .one {
+        color: #4cc9f0;
+      }
+      .one:hover {
+        background-color: #4cc9f0;
+        -webkit-box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+        -moz-box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+        box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+      }
+    </style>
   </head>
   <body>
     <p class="world">Merry Christmas</p>
@@ -76,7 +103,7 @@
       <div class="sparkle">
         <span>♦</span>
         <span>♦</span>
-        <span>♦</span>
+        <span>❤</span>
         <span>♦</span>
         <span>♦</span>
         <span>♦</span>
@@ -91,6 +118,22 @@
         <div></div>
       </div>
     </div>
+    <div style="position: relative; text-align: center; margin-top: 50px">
+      <a href="daily.html">
+        <button class="btn one">return</button>
+      </a>
+    </div>
+
+    <audio
+      loop="loop"
+      id="music"
+      src="文件/圣诞结.mp3"
+      controls="controls"
+      autoplay
+      preload="auto"
+      hidden="true"
+      style="margin-top: 50px"
+    ></audio>
   </body>
 </html>
 <!-- <input type="checkbox" id="menu_btn" />
