@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>陈志轩的简介</title>
-    <link
-      href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="CSS/nav_style.css" />
     <link rel="icon" href="文件/logo.jpg" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -23,25 +18,18 @@
       integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-      crossorigin="anonymous"
-    ></script>
+    <script type="text/javascript" src="JS/header.js"></script>
+    <script type="text/javascript" src="JS/ender.js"></script>
     <style>
-      body {
-        background-color: #c2a8d6;
-      }
       .hidden {
         display: flex;
       }
     </style>
   </head>
-  <body>
+  <body style="background-color: #c2a8d6">
     <!-- 头部在最后 -->
     <!-- 中间部分 -->
     <div
-      class="col-md-12 col-sm-12"
       style="padding-top: 70px; text-align: center"
     >
       <div style="text-align: center">
@@ -56,54 +44,8 @@
       </div>
     </div>
     <!-- 尾部 -->
-    <div
-      class="col-md-12 col-sm-12"
-      style="
-        background: #d576ba;
-        position: absolute;
-        margin-top: auto;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        text-align: center; "
-    >
-      <p class="text-center" style="margin-top: 10px">
-        微信：17725925722 &nbsp;&nbsp; QQ：1533266877
-      </p>
-      <p class="text-center">版权所有，翻录必揪</p>
-      </div>
-    </div>
-    
-    <!-- 头部 -->
-    <div>
-      <input type="checkbox" id="menu_btn" />
-      <label class="menu-btn" for="menu_btn">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-      </label>
-      <div class="wrapper">
-        <ul class="menu">
-          <li>
-            <a href="first.html"><strong>首页</strong></a>
-          </li>
-          <li>
-            <a href="myself.html"><strong>简介</strong></a>
-          </li>
-          <li>
-            <a href="daily.html"><strong>日常生活</strong></a>
-          </li>
-          <li>
-            <a href="https://jwc-jwxt.gcu.edu.cn/"><strong>教务系统</strong></a>
-          </li>
-          <li>
-            <a href="https://gcuwomd.github.io/"
-              ><strong>学生网站运维部</strong></a
-            >
-          </li>
-          <li>
-            <a href="https://www.gcu.edu.cn/"><strong>学校主页</strong></a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <div id="ender"></div>
+    <!-- 头部导航栏 -->
+    <div id="header"></div>
   </body>
 </html>

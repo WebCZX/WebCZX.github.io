@@ -1,0 +1,21 @@
+.dirary {
+  width: 80%;
+  /* border: 1px black solid; */
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  font-family: 黑体;
+  font-size: medium;
+  text-indent: 2em;
+  border-radius: 20px;
+  box-shadow: 15px 15px 15px #6e6e6e;
+  padding: 20px;
+  font-weight: bolder;
+}
+.head {
+  margin-bottom: 20px;
+}
+.head img {
+  width: 40px;
+}
+
