@@ -15,7 +15,9 @@
 .head {
   margin-bottom: 20px;
 }
+.date {
+  margin: 0 auto;
+}
 .head img {
   width: 40px;
 }
-
