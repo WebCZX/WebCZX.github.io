@@ -21,3 +21,7 @@
 .head img {
   width: 40px;
 }
+.main img {
+  width: 80%;
+  margin-top: 20px;
+}
